@@ -1,7 +1,4 @@
 PKGNAME=ntfs-3g
 PKGFULLNAME=fs/ntfs-3g
-PKGTYPE=fsdrv.fuse
-PKGDETAIL="Module with support for Windows partition based operations"
-PKGDETAIL_BASIC="Provides reading and writing for Windows hard disks"
-CAPABILITIESFILE=yes
-BUILDFILE="./build"
+PKGDETAIL="read and write to Windows partitions"
+PKGDEPENDS="sys/fuse"
